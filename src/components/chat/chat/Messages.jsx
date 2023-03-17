@@ -35,6 +35,7 @@ const Container = styled(Box)`
 
 
 const Messages = ({ person, conversation }) => {
+    
 
     const [messages, setMessages] = useState([]);
     const [incomingMessage, setIncomingMessage] = useState(null);
@@ -85,14 +86,14 @@ const Messages = ({ person, conversation }) => {
                 message = {
                     senderId: account.sub,
                     receiverId: receiverId,
-                    conversationId: conversation._id,
+                    conversationId: conversation?._id,
                     type: 'text',
                     text: value
                 };
             } else {
                 message = {
                     senderId: account.sub,
-                    conversationId: conversation._id,
+                    conversationId: conversation?._id,
                     receiverId: receiverId,
                     type: 'file',
                     text: image
