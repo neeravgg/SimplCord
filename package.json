@@ -1,0 +1,25 @@
+{
+	"name": "simplcord",
+	"version": "1.0.0",
+	"description": "SimplCord is a chat application built with the power of MERN Stack.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"client": "cd client && npm start",
+		"server": "cd server && npm start",
+		"start": "concurrently  \"npm run server\" \"npm run client\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/neeravgg/SimplCord.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/neeravgg/SimplCord/issues"
+	},
+	"homepage": "https://github.com/neeravgg/SimplCord#readme",
+	"dependencies": {
+		"concurrently": "^8.2.1"
+	}
+}
