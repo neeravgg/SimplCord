@@ -1,18 +1,14 @@
-# Snappy - Chat Application 
-Snappy is chat application build with the power of MERN Stack. You can find the tutorial [here](https://www.youtube.com/watch?v=otaQKODEUFs)
+# SimplCord - Chat Application 
+SimplCord is a web application created with React, Node, and MongoDB to enable secure user communication in the most straightforward manner.
 
 
-![login page](./images/snappy_login.png)
+![login page](https://github.com/neeravgg/SimplCord/assets/68321206/a0da0bcb-6dfc-45e4-9382-565d90a20560)
 
 ![home page](./images/SimplCord.png)
 
 ## Installation Guide
 
-### Requirements
-- [Nodejs](https://nodejs.org/en/download)
-- [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
-
-Both should be installed and make sure mongodb is running.
+Both should be installed and make sure Mongodb is running.
 
 ```shell
 git clone https://github.com/koolkishan/chat-app-react-nodejs
