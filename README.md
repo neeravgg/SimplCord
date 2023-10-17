@@ -1,5 +1,5 @@
 # SimplCord - Chat Application 
-SimplCord is a web application created with React, Node, and MongoDB to enable secure user communication in the most straightforward manner.
+SimplCord is a chat application built with the power of MERN Stack.
 
 
 ![login page](https://github.com/neeravgg/SimplCord/assets/68321206/a0da0bcb-6dfc-45e4-9382-565d90a20560)
@@ -8,7 +8,7 @@ SimplCord is a web application created with React, Node, and MongoDB to enable s
 
 ## Installation Guide
 
-Both should be installed and make sure Mongodb is running.
+Both should be installed and make sure MongoDB is running.
 
 ```shell
 git clone https://github.com/koolkishan/chat-app-react-nodejs
@@ -41,7 +41,7 @@ yarn start
 ```
 For Backend.
 
-Open another terminal in folder, Also make sure mongodb is running in background.
+Open another terminal in a folder, Also make sure MongoDB is running in the background.
 ```shell
 cd server
 yarn start
