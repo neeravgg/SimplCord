@@ -4,7 +4,7 @@ SimplCord is a chat application built with the power of MERN Stack.
 
 ![login page](https://github.com/neeravgg/SimplCord/assets/68321206/a0da0bcb-6dfc-45e4-9382-565d90a20560)
 
-![home page](./images/SimplCord.png)
+![home page](https://github.com/neeravgg/SimplCord/assets/68321206/a1cf2eee-c3a3-4df2-972d-e41eb8cd59a0)
 
 ## Installation Guide
 
